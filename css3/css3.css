@@ -1,0 +1,17 @@
+body{background:#68cdd5}
+#s1{position: absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%)}
+#s2{position: absolute;
+    bottom:20%;
+    left:20%;}
+#s3{position:absolute;
+    bottom:20%;
+    right:20%;}
+p{color:#fff;font-size:1rem}
+#p1{position:absolute;
+    top:39%;
+    left:50%;
+    transform:translate(-50%,-50%)}  
+
