@@ -7,8 +7,8 @@ header,footer,#s4{width:100vw;
                   color:#fff;
                   position:absolute;
                   border:none;}
-header{height:5vh;
-       line-height:5vh;}
+header{height:6vh;
+       line-height:6vh;}
 footer{height:8vh;
        line-height:8vh;
        top:25vh;}
@@ -19,17 +19,20 @@ span{position:absolute;}
 #s1{left:5%;}
 #s2,#s4{left:50%;
         transform:translate(-50%,0);}
+#s2{font-family:"黑体";
+    font-size:1.2em;}
 #s3{right:5%;}
 input{border:none;
       position:absolute;
-      width:85vw;
-      height:7vh;
-      left:15vw;}
+      width:100vw-58.5px;
+      height:50px;
+      left:58.5px;
+      outline:none;}
 #phone,#i1{top:7vh;}
 #ps,#i2{top:16vh;}
-img{position:absolute;
-    width:15vw;
-    height:7vh;
+img{position:fixed;
+    width:58.5px;
+    height:50px;
     display:inline-block;}
 a{position:absolute;
   top:35vh;
