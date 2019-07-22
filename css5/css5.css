@@ -1,20 +1,12 @@
 *{margin:0;
   padding:0;
   box-sizing:border-box;}
-header{ display:flex;
-        align-items:center;
-        width:100%;
-        height:7%;
+header{ width:100%;
+        height:43px;
         background:#68cdd5;
-        line-height:7%;
         color:#fff;
-        position:fixed;}
-.im{position:absolute;
-    left:0;
-    top:50%;
-    transform:translate(0,-50%);
-    display:inline-block;
-    }
+        position: fixed;
+        z-index: 2;}
 .txt{font-size:1.5em;
      position:absolute;
      left:50%;
@@ -24,30 +16,35 @@ header{ display:flex;
 .bg{background:url(./images/bg.png) no-repeat;
     background-position:center;
     background-size:100% 100%;
-    background-attachment: inherit;
-    height:23%;
+    background-attachment:initial;
+    height:35%;
     width:100%;
-    top:7%;
+    top:0%;
     position: absolute;
+    z-index: 1;
     }
-.bf{position:absolute;
-    top:30%;
-    left:20%;
+.mini{position: absolute;
+      left:50px;
+      top:50%;}
+.bf{position: relative;
+    top:20%;
+    left:65%;
     color:#fff;
     font-size:20px;}   
-.tf{position: absolute;
-    top:60%;
-    left:27%;
+.tf{position: relative;
+    top:80%;
+    left:100%;
     color:#fff;
     font-size:16px;}
 main{display:flex;
      width:100%;
-     height:60%;
+     height:100%;
      flex-flow:column nowrap;
-     justify-content:space-between;
+     justify-content:space-around;
      align-content:baseline;
      position:absolute;
-     top:30%;
+     top:35%;
+     overflow-y:scroll;
      }
 main .bar{width:100%;
      /* position: relative; */
@@ -56,19 +53,21 @@ main .bar{width:100%;
      justify-content: flex-start;
      align-items: center;
      flex-grow:1;
+     padding-left:1.5em;
     }
 footer{display:flex;
        flex-flow:row nowrap;
        justify-content:space-around;
        align-content:center;
        width:100%;
-       height:10%;
+       height:50px;
        background:#fff;
        position: fixed;
        bottom:0;}
 .btn{width:48%;
      height:80%;
      background:#68cdd5;
+     border:1px solid #68cdd5;
      border-radius:7px;
      position:absolute;
      top:50%;
